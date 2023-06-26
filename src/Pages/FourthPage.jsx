@@ -6,6 +6,7 @@ import MoneySection from "../Components/MoneySection/MoneySection";
 import MarksSection from "../Components/MarksSection/MarksSection";
 import SeekSection from "../Components/SeekSection/SeekSection";
 import PercentageSection from "../Components/PercentageSection/PercentageSection";
+import ReturnSection from "../Components/ReturnSection/ReturnSection";
 
 const FourthPage = (props) => {
 
@@ -25,6 +26,7 @@ const FourthPage = (props) => {
         lang={props.langData}
         image="waysBg4"
       />
+      <ReturnSection lang={props.langData} />
       <PercentageSection lang={props.langData} />
       <MoneySection lang={props.langData} img={"moneyBg4"} />
       <MarksSection lang={props.langData} />

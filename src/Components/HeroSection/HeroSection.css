@@ -139,14 +139,6 @@
     font-size: 30px;
 }
 
-.hero-section h1 {
-    height: 230px;
-}
-
-.hero-section h4 {
-    height: 158px;
-}
-
 @media screen and (max-width: 800px) {
     .hero-section-image-mobile {
         display: block;
