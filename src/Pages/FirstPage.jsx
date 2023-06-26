@@ -11,10 +11,9 @@ import SeekSection from "../Components/SeekSection/SeekSection";
 import cardImg from "../Images/cardImg.webp";
 
 const FirstPage = (props) => {
+  /* WRITE PAGE NUMBER TO LOCAL STORAGE */
 
-  /* WRITE PAGE NUMBER TO LACAL STORAGE */
-
-  localStorage.setItem('pageNumber', 1);
+  localStorage.setItem("pageNumber", 1);
 
   return (
     <>
