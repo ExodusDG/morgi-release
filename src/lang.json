@@ -1,0 +1,25 @@
+[{
+        "langCode": "gb",
+        "countryCode": "GB",
+        "name": "English",
+        "file": "./lang/en.json"
+    },
+    {
+        "langCode": "uk",
+        "countryCode": "UA",
+        "name": "Українська",
+        "file": "./lang/uk.json"
+    },
+    {
+        "langCode": "pl",
+        "countryCode": "PL",
+        "name": "Polski",
+        "file": "./lang/pl.json"
+    },
+    {
+        "langCode": "cz",
+        "countryCode": "CZ",
+        "name": "Čeština",
+        "file": "./lang/cz.json"
+    }
+]
