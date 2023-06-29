@@ -7,10 +7,11 @@ import MarksSection from "../Components/MarksSection/MarksSection";
 import SeekSection from "../Components/SeekSection/SeekSection";
 import PercentageSection from "../Components/PercentageSection/PercentageSection";
 import ReturnSection from "../Components/ReturnSection/ReturnSection";
+import heroImage from "../Images/heroImage3.webp";
+import heroImageMobile from "../Images/heroImage3Mobile.webp";
 
 const FourthPage = (props) => {
-
-  localStorage.setItem('pageNumber', 4);
+  localStorage.setItem("pageNumber", 4);
 
   return (
     <>
@@ -19,6 +20,8 @@ const FourthPage = (props) => {
         whiteBlock={true}
         thirdScroll={true}
         lang={props.langData}
+        image={heroImage}
+        mobileImage={heroImageMobile}
       />
       <RecipeSection lang={props.langData} />
       <WaysSection

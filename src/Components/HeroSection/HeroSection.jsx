@@ -7,7 +7,14 @@ import heroImageMobile from "../../Images/heroImageMobile.webp";
 import { AiOutlineArrowDown } from "react-icons/ai";
 import TextPhraseContext from "../../context.js/context";
 
-const HeroSection = ({ color, whiteBlock, thirdScroll, lang }) => {
+const HeroSection = ({
+  color,
+  whiteBlock,
+  thirdScroll,
+  lang,
+  image,
+  mobileImage,
+}) => {
   const heroClass = `hero-section ${color}`;
   const handleScrollToAnchor = (event, anchor) => {
     event.preventDefault();
@@ -21,7 +28,7 @@ const HeroSection = ({ color, whiteBlock, thirdScroll, lang }) => {
   };
 
   const getTextPhrase = useContext(TextPhraseContext);
-  const pageNumber = localStorage.getItem('pageNumber');
+  const pageNumber = localStorage.getItem("pageNumber");
 
   return (
     <>
@@ -40,10 +47,10 @@ const HeroSection = ({ color, whiteBlock, thirdScroll, lang }) => {
           </a>
         </div>
         <div className="hero-section-image">
-          <img src={heroImage} alt="Hero Section Image" />
+          <img src={image} alt="Hero Section Image" />
         </div>
         <div className="hero-section-image-mobile">
-          <img src={heroImageMobile} alt="Hero Section Image" />
+          <img src={mobileImage} alt="Hero Section Image" />
         </div>
         <div className="hero-section-arrow">
           <AiOutlineArrowDown

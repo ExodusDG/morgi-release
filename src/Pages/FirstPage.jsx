@@ -9,6 +9,8 @@ import MoneySection from "../Components/MoneySection/MoneySection";
 import MarksSection from "../Components/MarksSection/MarksSection";
 import SeekSection from "../Components/SeekSection/SeekSection";
 import cardImg from "../Images/cardImg.webp";
+import heroImage from "../Images/heroImage.webp";
+import heroImageMobile from "../Images/heroImageMobile.webp";
 
 const FirstPage = (props) => {
   /* WRITE PAGE NUMBER TO LOCAL STORAGE */
@@ -17,7 +19,11 @@ const FirstPage = (props) => {
 
   return (
     <>
-      <HeroSection lang={props.langData} />
+      <HeroSection
+        lang={props.langData}
+        image={heroImage}
+        mobileImage={heroImageMobile}
+      />
       <SucceedSection image={cardImg} />
       <RecipeSection lang={props.langData} />
       <WaysSection lang={props.langData} />

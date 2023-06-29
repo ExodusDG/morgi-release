@@ -186,11 +186,18 @@
         margin: 0 auto;
         padding-top: 250px;
     }
-    .hero-section-arrow {
-        display: none;
-    }
     .hero-section-image img,
     .hero-section-image-mobile img {
         width: 100%;
+    }
+    .hero-section a {
+        display: flex;
+        justify-content: center;
+    }
+    .hero-section-arrow svg {
+        display: none;
+    }
+    .hero-section-arrow {
+        margin-top: 50px;
     }
 }

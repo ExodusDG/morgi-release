@@ -15,8 +15,7 @@ const RecipeSection = ({ text }) => {
   };
 
   const getTextPhrase = useContext(TextPhraseContext);
-  const pageNumber = localStorage.getItem('pageNumber');
-
+  const pageNumber = localStorage.getItem("pageNumber");
 
   return (
     <div className="recipe-section" id="recipe-section">
@@ -35,15 +34,11 @@ const RecipeSection = ({ text }) => {
       <div className="recipe-section-cards">
         <div className="recipe-section-card">
           <h4>{getTextPhrase("recipeCard1Title", pageNumber)}</h4>
-          <h5>
-            {getTextPhrase("recipeCard1SubTitle", pageNumber)}
-          </h5>
+          <h5>{getTextPhrase("recipeCard1SubTitle", pageNumber)}</h5>
         </div>
         <div className="recipe-section-card">
           <h4>{getTextPhrase("recipeCard2Title", pageNumber)}</h4>
-          <h5>
-            {getTextPhrase("recipeCard2SubTitle", pageNumber)}
-          </h5>
+          <h5>{getTextPhrase("recipeCard2SubTitle", pageNumber)}</h5>
         </div>
         <div className="recipe-section-card">
           <h4>{getTextPhrase("recipeCard3Title", pageNumber)}</h4>
@@ -55,37 +50,29 @@ const RecipeSection = ({ text }) => {
         </div>
       </div>
       <div className="recipe-section-cards-mobile">
-        <Swiper className="mySwiper" slidesPerView={2}>
+        <Swiper className="mySwiper" slidesPerView={2} spaceBetween={40}>
           <SwiperSlide>
             <div className="recipe-section-card">
               <h4>{getTextPhrase("recipeCard1Title", pageNumber)}</h4>
-              <h5>
-                {getTextPhrase("recipeCard1SubTitle", pageNumber)}
-              </h5>
+              <h5>{getTextPhrase("recipeCard1SubTitle", pageNumber)}</h5>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="recipe-section-card">
               <h4>{getTextPhrase("recipeCard2Title", pageNumber)}</h4>
-              <h5>
-                {getTextPhrase("recipeCard2SubTitle", pageNumber)}
-              </h5>
+              <h5>{getTextPhrase("recipeCard2SubTitle", pageNumber)}</h5>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="recipe-section-card">
               <h4>{getTextPhrase("recipeCard3Title", pageNumber)}</h4>
-              <h5>
-                {getTextPhrase("recipeCard3SubTitle", pageNumber)}
-              </h5>
+              <h5>{getTextPhrase("recipeCard3SubTitle", pageNumber)}</h5>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="recipe-section-card">
               <h4>{getTextPhrase("recipeCard4Title", pageNumber)}</h4>
-              <h5>
-                {getTextPhrase("recipeCard4SubTitle", pageNumber)}
-              </h5>
+              <h5>{getTextPhrase("recipeCard4SubTitle", pageNumber)}</h5>
             </div>
           </SwiperSlide>
         </Swiper>

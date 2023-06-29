@@ -188,27 +188,34 @@ const MarksSection = () => {
               <h6>{getTextPhrase("compareText33", pageNumber)}</h6>
             </div>
           </div>
-          <div className="line"></div>
 
-          <div className="marks-section-list">
-            <div className="marks-section-block section-border">
-              <h6>
-                <span>{getTextPhrase("compareText9", pageNumber)}</span>
-              </h6>
-            </div>
-            <div className="marks-section-block">
-              <img src={redNotFilled} alt="" />
-              <h6>{getTextPhrase("compareText34", pageNumber)}</h6>
-            </div>
-            <div className="marks-section-block">
-              <img src={redNotFilled} alt="" />
-              <h6>{getTextPhrase("compareText35", pageNumber)}</h6>
-            </div>
-            <div className="marks-section-block">
-              <img src={greenFilled} alt="" />
-              <h6>{getTextPhrase("compareText36", pageNumber)}</h6>
-            </div>
-          </div>
+          {
+            pageNumber !== '4'
+              ?
+              <>
+                <div className="line"></div>
+                <div className="marks-section-list">
+                  <div className="marks-section-block section-border">
+                    <h6>
+                      <span>{getTextPhrase("compareText9", pageNumber)}</span>
+                    </h6>
+                  </div>
+                  <div className="marks-section-block">
+                    <img src={redNotFilled} alt="" />
+                    <h6>{getTextPhrase("compareText34", pageNumber)}</h6>
+                  </div>
+                  <div className="marks-section-block">
+                    <img src={redNotFilled} alt="" />
+                    <h6>{getTextPhrase("compareText35", pageNumber)}</h6>
+                  </div>
+                  <div className="marks-section-block">
+                    <img src={greenFilled} alt="" />
+                    <h6>{getTextPhrase("compareText36", pageNumber)}</h6>
+                  </div>
+                </div>
+              </>
+              : null
+          }
         </div>
 
       </div>
