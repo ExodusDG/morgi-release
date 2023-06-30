@@ -21,7 +21,7 @@ const RecipeSection = ({ text }) => {
     <div className="recipe-section" id="recipe-section">
       <div className="recipe-section-text">
         <h1>{getTextPhrase("recipeTitle", pageNumber)}</h1>
-        <a href="#">
+        <a href="https://app.morgis.com/auth/signup-host" target="_blank">
           {getTextPhrase("recipeButtonText", pageNumber)} <AiOutlineArrowDown />
         </a>
       </div>

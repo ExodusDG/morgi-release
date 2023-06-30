@@ -22,7 +22,7 @@ const ReturnSection = () => {
           <h1>
             {getTextPhrase("returnTitle", pageNumber)}
           </h1>
-          <a href="#">{getTextPhrase("returnButtonText", pageNumber)}</a>
+          <a href="https://app.morgis.com/auth/signup-host" target="_blank">{getTextPhrase("returnButtonText", pageNumber)}</a>
         </div>
         <div className="return-section-image">
           <h4 id="firstText">{getTextPhrase("returnText1", pageNumber)}</h4>

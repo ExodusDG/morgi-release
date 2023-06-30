@@ -28,7 +28,7 @@ const SucceedSection = ({ color, image }) => {
                 <p>
                 {getTextPhrase("suceedBlockSubTitle", pageNumber)}
                 </p>
-                <a href="#">{getTextPhrase("suceedBlockButtonText", pageNumber)}</a>
+                <a href="https://app.morgis.com/auth/signup-host" target="_blank">{getTextPhrase("suceedBlockButtonText", pageNumber)}</a>
               </div>
             </div>
           </div>

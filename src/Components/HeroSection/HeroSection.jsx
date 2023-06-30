@@ -42,7 +42,7 @@ const HeroSection = ({
         <div className={heroClass}>
           <h1>{getTextPhrase("headerTitle", pageNumber)}</h1>
           <h4>{getTextPhrase("headerSubTitle", pageNumber)}</h4>
-          <a href="#">
+          <a href="https://app.morgis.com/auth/signup-host" target="_blank">
             <button>{getTextPhrase("headerButtonText", pageNumber)}</button>
           </a>
         </div>

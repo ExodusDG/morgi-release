@@ -24,7 +24,7 @@ const SeekSection = ({ header }) => {
           <h4>
             {getTextPhrase("footerText", pageNumber)}
           </h4>
-          <a href="#">{getTextPhrase("footerButtonText", pageNumber)}</a>
+          <a href="https://app.morgis.com/auth/signup-host" target="_blank">{getTextPhrase("footerButtonText", pageNumber)}</a>
         </div>
       </div>
     </div>
