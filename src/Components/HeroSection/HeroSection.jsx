@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "./HeroSection.css";
-import logo from "../../Images/logo.svg";
-import mobileLogo from "../../Images/mobileLogo.svg";
+import logo from "../../Images/Logo.png";
+import mobileLogo from "../../Images/Logo.png";
 import heroImage from "../../Images/heroImage.webp";
 import heroImageMobile from "../../Images/heroImageMobile.webp";
 import { AiOutlineArrowDown } from "react-icons/ai";
