@@ -9,7 +9,7 @@ import langList from "./lang.json";
 import TextPhraseContext from "./context.js/context";
 
 function App() {
-  const [selectedLanguage, setSelectedLanguage] = useState("en");
+  const [selectedLanguage, setSelectedLanguage] = useState("pt");
   const [langData, setLangData] = useState([]);
 
   useEffect(() => {
@@ -28,7 +28,7 @@ function App() {
 
 
   useEffect(() => {
-
+/*
     const supportedLanguages = langList.map(e => e.langCode);
     const langArray = navigator.languages;
 
@@ -37,7 +37,7 @@ function App() {
     } else {
       setSelectedLanguage('gb');
     }
-
+*/
   }, []);
 
 
@@ -65,10 +65,10 @@ function App() {
         />
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<FirstPage langData={langData} pageNumber={1} />} />
+            <Route path="/page4" element={<FirstPage langData={langData} pageNumber={1} />} />
             <Route path="/page2" element={<SecondPage langData={langData} pageNumber={2} />} />
             <Route path="/page3" element={<ThirdPage langData={langData} pageNumber={3} />} />
-            <Route path="/page4" element={<FourthPage langData={langData} pageNumber={4} />} />
+            <Route path="/" element={<FourthPage langData={langData} pageNumber={4} />} />
           </Routes>
         </BrowserRouter>
       </>

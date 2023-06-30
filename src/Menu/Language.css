@@ -30,3 +30,7 @@
     line-height: 130%;
     text-transform: uppercase;
 }
+
+.languageBlock:last-child {
+    margin-bottom: 0;
+}
