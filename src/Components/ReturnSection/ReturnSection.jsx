@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import TextPhraseContext from "../../context.js/context";
 import "./ReturnSection.css";
-import logo from "../../Images/logo.webp";
-import logoMobile from "../../Images/mobileLogo.webp";
+import logo from "../../Images/logo.svg";
+import logoMobile from "../../Images/mobileLogo.svg";
 
 const ReturnSection = () => {
 

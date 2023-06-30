@@ -1,12 +1,12 @@
 [{
-        "langCode": "gb",
-        "countryCode": "GB",
+        "langCode": "US",
+        "countryCode": "US",
         "name": "English",
         "file": "./lang/en.json"
     },
     {
         "langCode": "pt",
-        "countryCode": "PT",
+        "countryCode": "BR",
         "name": "Portuguese",
         "file": "./lang/pt.json"
     }
